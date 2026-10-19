@@ -2,6 +2,7 @@
   "name": "event-booking-system",
   "version": "1.0.0",
   "description": "A simple event booking system",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "demo": "node index.js",

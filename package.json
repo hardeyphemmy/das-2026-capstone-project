@@ -3,12 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "description": "Event Ticketing and Booking - course capstone, built one milestone per Build session",
+  "homepage": "https://github.com/dejibimbolaAyo/das-2026-capstone-project#readme",
+  "bugs": {
+    "url": "https://github.com/dejibimbolaAyo/das-2026-capstone-project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dejibimbolaAyo/das-2026-capstone-project.git"
+  },
   "type": "module",
-  "engines": {
-    "node": ">=22.13"
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
   },
   "scripts": {
     "demo": "node scripts/demo.js",
     "benchmark": "node scripts/benchmark-lookup.js"
+  },
+  "engines": {
+    "node": ">=22.13"
   }
 }
